@@ -2,8 +2,6 @@ import random
 from game.terminal_service import TerminalService
 
 class Word:
-    """A list of words to use for the secret word. 
-    """
     def __init__(self):
         self.terminal_service = TerminalService()
         self._list_of_words = ['country','product','delicious','outrageous','bag', 'eyes','encapsulation', 'classes','functions','programming','purpose']
